@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="175dp"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:id="@+id/picView"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:padding="2dp"/>
+    <TextView
+        android:id="@+id/nameView"
+        android:text="PlaceHolder"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>

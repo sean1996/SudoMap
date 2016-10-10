@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SudoMap</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <!--<string name="error_invalid_password">This password is too short</string>-->
+    <string name="error_invalid_password">Please enter at least 8 characters</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="error_registration_fail">Fail to register your account</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="title_activity_register">Register</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="registerButton">Register</string>
+    <string name="title_activity_your_event">My Events</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="guest_login">Guest Log-In</string>
+
+    <!-- Strings related to navigation drawer -->
+    <string name="trending_events_string">Trending Events</string>
+    <string name="your_events_string">Your Events</string>
+    <string name="settings_string">Settings</string>
+    <string name="log_out_string">Log Out</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Strings related to tabs -->
+    <string name="attending_fragment_title">Attending</string>
+    <string name="bookmark_fragment_title">Bookmarked</string>
+    <string name="list_item_event_title">Event Title</string>
+    <string name="list_item_date_time_title">Date and Time Title</string>
+    <string name="list_item_location_title">Location Title</string>
+
+    <string name="action_voice_rec">Houndify</string>
+    <!-- Facebook Android API -->
+    <string name="facebook_app_id">256461691371745</string>
+    <!-- Jason's API -->
+    <string name="settings">Settings</string>
+    <string name="exit_app">Exit back to login</string>
+    <string name="logout">Logout</string>
+    <string name="your_events">Your Events</string>
+    <string name="bookmark">Bookmarks</string>
+    <string name="trending">Trending Near You</string>
+    <string name="add_event">Add a New Event</string>
+
+</resources>

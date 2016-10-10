@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list_item_thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_launcher"
+        app:border_color="@color/white"
+        app:border_width="3dp" />
+
+    <TextView
+        android:id="@+id/list_item_author"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="AUTHOR"
+        android:layout_toEndOf="@+id/list_item_thumbnail"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="This is row number 15"
+        android:id="@+id/list_item_text"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/list_item_thumbnail"
+        android:layout_toEndOf="@+id/list_item_thumbnail"
+        />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:layout_marginTop="52dp"
+        android:id="@+id/list_item_counter"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-5dp"
+        android:background="@drawable/swipe_up"
+        android:backgroundTint="@color/dark_gray"
+        android:id="@+id/list_item_btn_up"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="90dp"
+        android:rotation="180"
+        android:background="@drawable/swipe_up"
+        android:backgroundTint="@color/dark_gray"
+        android:id="@+id/list_item_btn_down"/>
+</RelativeLayout>

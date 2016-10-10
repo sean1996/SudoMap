@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.anchronize.sudomap.navigationdrawer.TrendingActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/trending_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Trending"
+        android:textStyle="bold"
+        android:fontFamily="Myriad Pro"
+        android:textColor="@color/white"
+        android:shadowColor="@android:color/darker_gray"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/white"/>
+
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="380dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF">
+    </ListView>
+
+</RelativeLayout>

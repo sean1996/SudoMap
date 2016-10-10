@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anchronize.sudomap.navigationdrawer.SettingActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/viewA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:background="@android:color/white"
+                android:orientation="horizontal"/>
+
+            <LinearLayout
+                android:id="@+id/viewB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:orientation="horizontal"/>
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/change_pic_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:src="@drawable/add_pic_24"
+            app:layout_anchor="@id/viewA"
+            app:layout_anchorGravity="bottom|right|end"/>
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="460dp"
+            android:layout_height="290dp"
+            android:layout_marginLeft="-25dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:clickable="true"
+            android:onClick="onClickPic"
+            android:src="@mipmap/empty_pic"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="305dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/account"/>
+
+        <EditText
+            android:id="@+id/name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Name"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="395dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/phone"/>
+
+        <EditText
+            android:id="@+id/phone_editText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="395dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Phone"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="485dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/email"/>
+
+        <EditText
+            android:id="@+id/email_editText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="485dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Email"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="575dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/address"/>
+
+        <EditText
+            android:id="@+id/address_editText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="575dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Address"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="665dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/add_note"/>
+
+        <EditText
+            android:id="@+id/note_editText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="665dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Add Note"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Content"
+            android:id="@+id/saveButton"/>
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
+
+

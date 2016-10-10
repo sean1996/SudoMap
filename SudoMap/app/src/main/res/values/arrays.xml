@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="eventCategories">
+        <item>FUN</item>
+        <item>DANGEROUS</item>
+        <item>POLICE</item>
+        <item>NEW</item>
+        <item>FIRE</item>
+    </string-array>
+    <!-- Strings related to AddEventActivity -->
+    <string-array name="privacy_entries">
+        <item>Private Event</item>
+        <item>Public Event</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/event_all"
+        android:icon="@drawable/earth"
+        android:title="All" />
+    <item
+        android:id="@+id/event_fun"
+        android:icon="@drawable/fun"
+        android:title="Fun"/>
+
+    <item
+        android:id="@+id/event_dangerous"
+        android:icon="@drawable/dangerous"
+        android:title="Dangerous"/>
+
+    <item
+        android:id="@+id/event_police"
+        android:icon="@drawable/police"
+        android:title="Police"/>
+
+    <item
+        android:id="@+id/event_new"
+        android:icon="@drawable/box_new"
+        android:title="New"/>
+
+    <item
+        android:id="@+id/event_fire"
+        android:icon="@drawable/fire"
+        android:title="Fire"/>
+
+</menu>
